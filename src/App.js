@@ -1,13 +1,15 @@
-import './App.css';
+import { Component } from 'react';
 
-function App() {
+import './App.css';
+import TodosList from './components/TodosList';
+
+class App extends Component {
+  render(){
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <TodosList/>
     </div>
-  );
+  );}
 }
 
 export default App;
